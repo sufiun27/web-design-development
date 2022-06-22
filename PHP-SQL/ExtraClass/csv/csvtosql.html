@@ -1,0 +1,72 @@
+<html>
+ <head>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<style>
+#header1 {
+                background: linear-gradient(132deg,rgb(221, 11, 11),rgb(26, 36, 223));
+                background-size: 400% 400%;
+                animation: BackgroundGradient 2s ease infinite;
+            }
+            
+            #header2 {
+            
+            background: linear-gradient(117deg, rgba(226,9,9,1) 0%, rgba(197,226,72,1) 52%, rgba(3,0,255,1) 100%);
+            
+            background-size: 400% 400%;
+            animation: BackgroundGradient 5s ease infinite;
+            }
+            #header3 {             
+            background: linear-gradient(50deg, rgba(26,132,230,1) 0%, rgba(235,18,24,1) 50%, rgba(246,246,6,1) 100%);                        
+            background-size: 400% 400%;
+            animation: BackgroundGradient 5s ease infinite;
+            }
+          
+            @keyframes BackgroundGradient {
+                  0% {background-position: 0% 50%;}
+                  50% {background-position: 100% 50%;}
+                  100% {background-position: 0% 50%;}
+              }
+</style>
+
+
+
+
+ </head>
+ <body>
+
+   <div class="container">
+ <form action="insertsql.php" method="post" enctype="multipart/form-data">
+    <div class="row m-auto p-auto">
+     <div class="col-sm-12 col-lg-6 btn" id="header2">
+        <label class="text-light h5 btn" id="header1"><b>Import CSV File:</b></label> 
+        <input type="file"  name="filename" id="filename">
+     </div>
+     
+     <div class="col-sm-6 col-lg-2 btn" id="header3">
+           
+        <button type="submit" id="submit" name="submit" class="btn btn-outline-light" style="border-radius: 40%;"><b>Upload</b></button>
+      </div>
+      <div class="col-lg-2 col-sm-6 btn btn-outline-primary btn-lg m-1 " id="header1">
+
+          <div><i class="fa fa-user fa-lg mx-2"></i><a href="../admin/admin.php" class="text-white">Exit</a></div>
+      </div>
+    </div>
+  </form>
+   </div>
+   
+   
+  
+ <body>
+</html>
+

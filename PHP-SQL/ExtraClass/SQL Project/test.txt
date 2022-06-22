@@ -1,0 +1,22 @@
+<?php
+    $sql = "SELECT * FROM extraclass;";
+    $result = mysqli_query($conn,$sql);
+    $resultCheck = mysqli_num_rows($result);
+
+    if ($resultCheck > 0){
+            while ($row = mysqli_fetch_assoc($result)){
+                    echo $row['Day'];
+            }
+    }
+    
+    ?>
+
+
+
+<th><?php echo $rows['day']; ?></th>  
+
+     <th><?php echo $rows['Time_9am_10am']; ?></th> 
+ <th><?php echo $rows['Time_10am_11am']; ?></th>
+ <th><?php echo $rows['Time_11am_12pm']; ?></th>
+ <th><?php echo $rows['Time_12pm_1pm']; ?></th>
+ <th><?php echo $rows['Time_1pm_2pm']; ?></th> 
