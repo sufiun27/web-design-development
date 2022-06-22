@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Register Form</title>
+</head>
+<body>
+ <form action="insert.php" method="POST">
+  <table>
+   
+ <div class="col-lg-8 bg-primary col-sm-12 col-md-12 "><!--boothtrap main column no two div-->
+
+  <div class="row"><!-- div for bootstrap row section two insert-->
+
+    <div class="col-lg-2 col-sm-6 col-md-4 ">
+    <li class="nav-item bg-warning btn m-1">
+      <div class="form-group">
+        <label for="usr">08.30am-10.00am</label>
+        <input type="text" class="form-control" id="usr" name="h_one">
+      </div>
+    </li>
+    </div>
+
+    <div class="col-lg-2 col-sm-6 col-md-4 ">
+    <li class="nav-item bg-warning btn m-1">
+     <div class="form-group">
+        <label for="usr">10.00am-11.30am</label>
+        <input type="text" class="form-control" id="usr" name="h_two">
+      </div>
+    </li>
+  </div>
+
+
+  <div class="col-lg-2 col-sm-6 col-md-4 ">
+     <li class="nav-item bg-warning btn m-1">
+      <div class="form-group">
+         <label for="usr">11.30am-01.00pm</label>
+         <input type="text" class="form-control" id="usr" name="h_three">
+       </div>
+     </li>
+    </div>
+
+
+    <div class="col-lg-2 col-sm-6 col-md-4 ">
+    <li class="nav-item bg-warning btn m-1">
+      <div class="form-group">
+        <label for="usr">01.00pm-02.30pm</label>
+        <input type="text" class="form-control" id="usr" name="h_four">
+      </div>
+    </li>
+    </div>
+
+
+    <div class="col-lg-2 col-sm-6 col-md-4">
+   <li class="nav-item bg-warning btn m-1">
+      <div class="form-group">
+        <label for="usr">02.30pm-04.00pm</label>
+        <input type="text" class="form-control" id="usr" name="h_five">
+      </div>
+     </li>
+      </div>
+      
+      
+      <div class="col-lg-2 col-sm-6 col-md-4 ">
+     <li class="nav-item bg-warning btn m-1">
+       <div class="form-group">
+         <label for="usr">04.00pm-05.30pm</label>
+         <input type="text" class="form-control" id="usr" name="h_six">
+       </div>
+     </li>
+     </div>
+
+  
+       
+    </div> <!-- div for bootstrap row section two insert-->                        
+    </div><!--boothtrap main column no two div-->  
+   
+   
+ </table>
+ </form>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ALTER TABLE saturday
+ADD CONSTRAINT ab_abNo UNIQUE (ab,abNo);
+
+
+
+else
+
+{
+    echo "<script>alert('Please full up.. Select Day , AB and ABno')</script>";
+    //echo "<font color='red'><a href='admin.php'>Click here to go back</a>";
+    ?>
+    <META HTTP-EQUIV="Refresh" CONTENT="0; URL= http://localhost/ExtraClass/admin/admin.php "> 
+<?php
+    
+}
+
+
+
+$query1 = "SELECT ab_abNo FROM saturday ;";
+        $result = mysqli_query($conn,$query1);
+        while ($rows = mysqli_fetch_assoc($result)){
+            if($rows['ab_abNo'] == $p_ab_abNo){
+                echo "<script>alert('Can't Insert same data AB and ABno')</script>";
+                ?>
+                <!--<META HTTP-EQUIV="Refresh" CONTENT="0; URL= http://localhost/ExtraClass/admin/admin.php ">--> 
+                
+               <?php
+            }
+            
+        }
+
+
+ 
+ 
+ 
+ 
+ 
+</body>
+</html>
