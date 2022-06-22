@@ -1,0 +1,125 @@
+body{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Jua', sans-serif;
+    font-size: 20px;
+}
+
+
+.height{
+    min-height: 100vh;
+}
+.title-undrline{
+    width: 200px;
+    height:10px;
+    margin: 0 auto;
+   /* background: blue!important;*/
+
+}
+.about-picture{
+    background: url(../img/b1.jpg)center/cover no-repeat fixed;
+    /*background-size:cover; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;*/
+}
+.background-image{
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(100,0,0,0.5),rgba(0,0,0,0.8)) ,url(../img/b1.jpg)center/cover no-repeat fixed;
+}
+.background-image-contract{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(../img/b1.jpg)center/cover no-repeat fixed;
+}
+nav ul li a.active {
+    background-color: #666;
+}
+
+
+/*vedio section */
+
+.video-section {
+    position: relative;
+    width: 100%;
+    max-height: 550px;
+    overflow: hidden;
+}
+#video-elem {
+    width: 100%;
+}
+video::-webkit-media-controls {
+    display:none !important;
+}
+.video-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.video-overlay:hover {
+    opacity: 1;
+}
+.video-overlay h1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-transform: uppercase;
+    font-size: 3em;
+    color: #000;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* vedio section */
+
+
+
+
+
+
+
+
+
+
+
+/*linear-gradiant background /animation background */
+
+.bg-fixed-image{
+    background: url(../img/b1.jpg)center/cover no-repeat fixed;
+  }
+    #bg-linear {
+                                background: linear-gradient(132deg,rgba(221, 11, 11, 0.807),rgba(26, 37, 223,.8));
+                  background-size: 400% 400%;
+                  animation: BackgroundGradient 30s ease infinite;
+              }
+
+
+  
+              #header {
+                background: linear-gradient(132deg,rgb(221, 11, 11),rgb(26, 36, 223));
+                background-size: 400% 400%;
+                animation: BackgroundGradient 30s ease infinite;
+            }
+
+
+              
+              @keyframes BackgroundGradient {
+                  0% {background-position: 0% 50%;}
+                  50% {background-position: 100% 50%;}
+                  100% {background-position: 0% 50%;}
+              }
+/* close linear-gradiant background /animation background */
