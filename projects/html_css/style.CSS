@@ -1,0 +1,248 @@
+<link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:400,700|Oswald" rel="stylesheet">
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	height: 60px;
+	background-color: black;
+	color: white;	
+}
+
+.nav1 { 
+    padding-top: 1px;
+ }
+
+.navbar{
+
+	display: inline;
+	margin-right: 15px;
+	font-size: 20px;
+	padding: 0px;
+}
+
+.navbarh1{
+	margin-right: 30px;
+	text-align: left;
+	margin-left: 50px;
+    font-size: 30px;
+    padding: 0px;   
+}
+.redline{
+	width: 100%;
+	background-color: red;
+	height: 4px;
+	padding: 0;
+	margin: 0;
+}
+
+nav li a{
+         color: white;
+        text-decoration: none;
+
+}
+.home{
+      background-color: red;
+      padding: 27px 15px 15px 15px;
+
+}
+
+.about:hover {
+	background-color: tomato;
+	 padding: 26px 15px 12px 15px;
+}
+.potfolio:hover {
+	background-color: tomato;
+	 padding: 26px 15px 12px 15px;
+}
+
+.hpimg{
+	background-image: url(pro.jpg);
+	background-attachment:  fixed;
+	width: 100%;
+	height: 1000px;
+	background-size: cover;
+	color: white;
+	padding: 0;
+	margin: 0;	
+}
+
+.hpimgul{
+	margin: 0;
+	padding: 100px 0px 0px 0px;
+	list-style-type: none;
+
+}
+.hpimgdiv{
+	padding: 0% 0% 0% 50%;
+}
+.hpimgli{
+	padding-bottom: 10px;
+}
+.ditels1{
+	font-size: 30px;
+}
+.ditels2{
+	font-size: 50px;
+}
+.ditels3{
+	font-size: 65px;
+	background-color: rgba(0,0,0,0.5);
+	display: inline-block;
+	
+}
+.ditels4{
+	font-size: 50px;
+
+}
+.ditelsbutton{
+	padding: 10px;
+	font-size: 25px;
+	background: yellow;
+	color: white;
+	font-weight: 900;
+
+}
+.ditelsbutton:hover{
+	background-color: tomato;
+}
+.aboutme{
+	padding:  2% 10% 2% 10%;
+
+	
+	
+	
+                background: linear-gradient(132deg,#922B21  , #F7DC6F);
+                background-size: 400% 400%;
+                animation: BackgroundGradient 30s ease infinite;
+            
+}
+
+.outer{
+		width: 80%;
+		background-color:#A6ACAF   ;
+		height: 30px;
+		padding: 2px;
+		
+	}
+.inner{		
+		background-color: #616161;
+		height: 23px;
+		text-align: center;
+		color: #fff;
+		margin: 0;
+		padding: 7px 0px 0px 0px;
+	}
+.innerp{
+	padding: 0;
+	margin: 0;
+}
+
+
+.protfolioimg{
+	background-image: url(protfolio.jpg);
+	background-attachment: fixed;
+	width: 100%;
+	height: 1000px;	
+}
+.protfoliod-img-div{
+	width: 100%;
+	height: 400px;
+	background-color:rgba(0,0,0,0.5);
+	color: white;
+
+	
+               
+                
+                
+	
+}
+
+.protfoliod-img-h1{
+                
+               font-family: Pacifico, Calibri;
+                font-size: 6em;
+                text-align: center;
+                padding: 0;
+                margin: 0;
+            }
+.protfoliod-img-div1{
+	padding: 9% 0% 0% 0%;
+	text-align: center;
+}            
+	
+.protfoliopag{
+	width: 100%;
+	height:100%;
+	background-color: #fff;
+
+}
+.protfolioimg2{
+	padding: 2% 10% 2% 10%;
+}
+.img-inline{
+	display: inline;
+	height: 24%;
+	width: 24%;
+	padding: 4px;
+	text-align: center;
+}
+.contractimg{
+	background-image: url(contract.jpg);
+	background-attachment: fixed;	
+	height: 1000px;
+	width: 100%;
+}
+
+            .video-section {
+                position: relative;
+                width: 100%;
+                max-height: 550px;
+                overflow: hidden;
+            }
+            #video-elem {
+                width: 100%;
+            }
+            video::-webkit-media-controls {
+                display:none !important;
+            }
+            .video-overlay {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                background-color: rgba(255, 255, 255, 0.8);
+                opacity: 0;
+                transition: opacity 0.3s ease;
+            }
+            .video-overlay:hover {
+                opacity: 1;
+            }
+            .video-overlay h1 {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                text-transform: uppercase;
+                font-size: 3em;
+                color: #000;
+                text-align: center;
+            }
+
+
+
+
+
+
+
+
+
+ @keyframes BackgroundGradient {
+                0% {background-position: 0% 50%;}
+                50% {background-position: 100% 50%;}
+                100% {background-position: 0% 50%;}
+

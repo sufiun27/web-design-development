@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action_page.php">
+        <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+        <br><br>
+        <input type="submit">
+      </form>
+
+
+      <form action="/action_page.php" style="width: 20%;">
+        <caption> <h1>legend</h1></caption>
+        <fieldset>
+          <legend >Personalia:</legend>
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" value="John"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" value="Doe"><br><br>
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+
+
+      <form action="/action_page.php">
+          <caption><h1>datalist</h1></caption>
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+          <option value="Internet Explorer">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist>
+        <input type="submit">
+      </form>
+
+</body>
+</html>

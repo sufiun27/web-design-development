@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- bootstrap css -->
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<script src="./js/jquery.js"></script>
+</head>
+<body>
+<!-- slide toggle -->
+    <div class="container"  id="toggle">
+        <div class="row ">
+          <!-- hide,show -->
+          <div class="col bg-primary text-center display-3" style="height:200px; width:200px">
+            <p class="bg-secondary ">Slide Toggle</p>             
+          </div>
+        </div>       
+      </div>
+      <div class="bg-secondary d-flex justify-content-center">
+          <button id="btn-toggle" class="btn btn-outline-danger w-75 ">Toggle</button>
+      </div>
+     <!-- close slide toggle --> 
+<hr><hr>
+<!-- fade toggle --> 
+      <!-- fadein,fadeoute -->
+<div class="bg-secondary d-flex justify-content-center">
+  <button id="btn-fade-toggle" class="btn btn-outline-danger w-75 ">fade-Toggle</button>
+</div>   
+      <div class="container bg-dark" id="container-fade-toggle">
+        <div class="row">
+          <div class="col-md-4" id="fade-1">
+            <div style="height:80px;width:80px" class="bg-primary"></div>
+          </div>
+          <div class="col-md-4" id="fade-2">
+              <div style="height:80px;width:80px" class="bg-secondary"></div>
+            </div>
+            <div class="col-md-4" id="fade-3">
+                <div style="height:80px;width:80px" class="bg-warning"></div>
+              </div>
+        </div>
+      </div>
+     
+<!-- close fade -->
+
+<!-- fade toggle -->  
+<div class="bg-secondary d-flex justify-content-center">
+  <button id="btn-fade-to" class="btn btn-outline-danger w-75 ">fade-to-Toggle</button>
+</div>   
+      <div class="container bg-dark" id="container-fade-to">
+        <div class="row">
+          <div class="col-md-4" id="fade-to-1">
+            <div style="height:80px;width:80px" class="bg-primary"></div>
+          </div>
+          <div class="col-md-4" id="fade-to-2">
+              <div style="height:80px;width:80px" class="bg-secondary"></div>
+            </div>
+            <div class="col-md-4" id="fade-to-3">
+                <div style="height:80px;width:80px" class="bg-warning"></div>
+              </div>
+        </div>
+      </div>     
+<!-- close fade -->
+<!-- slide toggle -->
+      <!-- slideup, slidedown -->
+      <div class="container ">
+        <div class="bg-secondary d-flex justify-content-center">
+          <button id="btn-slide-toggle" class="btn btn-outline-danger w-75 ">fade-to-Toggle</button>
+        </div>
+        <div id="slide-Toggle" style="height:300px" class="bg-warning"><h1>slide toggle</h1></div>
+      </div>
+<!-- close slide toggle -->
+<!-- animation section -->
+    
+      <div class="bg-secondary d-flex justify-content-center">
+        <button id="btn-animate" class="btn btn-outline-danger w-75 ">Animate</button>
+      </div>
+      <div class="mx-auto bg-primary" style="height:300px;width:80vw">
+      <div class="bg-danger text-center d-flex align-items-center justify-content-center" style="height:100px;width:200px;position:absolute;" id="this-animate"> 
+         <p >HELLOW</p> 
+         </div>  
+        </div>
+<!-- close animation section -->
+<!-- aleart section -->
+<div class="bg-secondary d-flex justify-content-center">
+  <button id="btn-aleart" class="btn btn-outline-danger w-75 ">Aleart</button>
+</div>
+<div class="bg-success mx-auto d-flex align-items-center justify-content-center" style="height:300px;width: 80vw;">
+<p class="display-1 bg-primary" id="this-hide">Aleart</p>
+</div>
+<!-- close aleart section -->
+
+
+<!-- js script link -->
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/main.js"></script>
+
+</body>
+</html>
