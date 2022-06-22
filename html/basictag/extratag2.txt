@@ -1,0 +1,11 @@
+<p style="color:red;"> red </p>
+<p style="color:blue;">I am blue</p>
+<p style="background-color:tomato;">This is a paragraph color tamato</p>
+<br>
+<p style="font-size:50px;">I am big with font-size:50px </p>
+<p style="font-family:courier;">This is a paragraph font-family.</p>
+<p style="font-size:160%;">This is a paragraph. with font-size:160%</p>
+<br>
+<p style="text-align:center;">Centered paragraph.</p>
+<p style="text-align:left;">left paragraph.</p>
+<p style="text-align:right;">right paragraph.</p>

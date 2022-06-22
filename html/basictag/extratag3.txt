@@ -1,0 +1,2 @@
+<p title="add extra information about an element"> <u>paragraph</u> - take mouse over the paragraph</p>
+<p>The <abbr title="have you learn abbr">WHO</abbr> meta data about a asomething</p>
